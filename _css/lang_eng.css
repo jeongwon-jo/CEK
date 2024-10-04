@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* font */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+cite,
+code,
+del,
+em,
+img,
+ins,
+q,
+small,
+strong,
+sub,
+sup,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button,
+textarea,
+input,
+select {
+  font-family: "Arial", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "dotum", "돋움", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: inherit;
+  letter-spacing: -0.025em;
+  word-spacing: -0.025em;
+  word-break: keep-all;
+}
+
+.header nav#gnb .gnb_li {
+  max-width: 380px;
+}
+
+.header.hover nav#gnb .gnb_li {
+  padding: 0 90px;
+}
+
+.header.hover nav#gnb .gnb_li:nth-child(2) {
+  padding: 0 80px;
+}
+
+.header.hover nav#gnb .gnb_li:nth-child(3) {
+  padding: 0 100px;
+}
+
+.header nav#gnb .gnb_li .snb {
+  padding-top: 16px;
+}
+
+.header nav#gnb .gnb_li .snb ul li {
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.header nav#gnb .gnb_li .snb {
+  min-height: 350px;
+}
+
+.header_bg.active {
+  height: 350px;
+}
+
+/* Pad */
+@media screen and (min-width: 768px) and (max-width:1200px) {
+  #wrap {
+    padding-bottom: 450px;
+  }
+
+  .footer {
+    bottom: -450px;
+    height: 450px;
+  }
+
+  .footer_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .footer_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width:767px) {
+  #wrap {
+    padding-bottom: 968px;
+  }
+
+  .footer {
+    bottom: -968px;
+    height: 968px;
+  }
+
+  .footer_left {
+    flex: 1;
+  }
+
+  .footer_gnb {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer_gnb ul {
+    width: calc(50% - 16px)
+  }
+}
+
+.sec3_count_item .desc h1 span.mt {
+  display: inline-block;
+  transform: translateX(0px);
+}
+
+.sec3_count_item .desc h1 span.day {
+  display: inline-block;
+  transform: translateX(0px);
+}
+.ci_box .title {
+  width: 500px;
+  flex-basis: 500px;
+}
+
+.sec4-truck .sec4_top h2 {
+  width: 80%;
+}
+
+.sec4-truck .btns p {
+  width: 56%;
+}
+
+.compliance_step li {
+  height: 90px;
+  font-size: 18px;
+}

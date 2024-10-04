@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+:root {
+  /* #### BRAND COLOR #### */
+  --brand_color: #01B552;
+  --sub_color: #444444;
+  --sub_color2: #01D05E;
+
+  /* #### TEXT COLOR #### */
+  --text_color_default: #111111;
+  --text_color_sub1: #333333;
+  --text_color_sub2: #505050;
+  --text_color_info: #767676;
+  --text_color_disabled: #999999;
+
+  /* #### BG COLOR #### */
+  --bg_deep: #111111;
+  --bg_default: #F1F1F5;
+  --bg_light: #F7F7F8;
+
+  /* #### LINE COLOR #### */
+  --line_deep: #111111;
+  --line_default: #E5E5E8;
+  --line_light: #F1F1F5;
+
+  --btn_disabled: #BBBBBB;
+}
